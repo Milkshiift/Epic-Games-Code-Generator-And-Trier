@@ -10,3 +10,5 @@ If your mouse moves not as intended, try to change window size.
 **DON'T MOVE YOUR MOUSE WHILE GENERATOR IS WORKING**                           
                            
 To stop move your mouse away from button.                            
+
+![](https://imgur.com/a/igA6H9t)
