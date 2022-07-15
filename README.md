@@ -11,4 +11,4 @@ If your mouse moves not as intended, try to change window size.
                            
 To stop move your mouse away from button.                            
 
-![](https://imgur.com/2mN3LwS)
+![](https://i.imgur.com/2mN3LwS.gif)
