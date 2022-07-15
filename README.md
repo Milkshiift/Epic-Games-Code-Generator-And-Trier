@@ -12,3 +12,4 @@ If your mouse moves not as intended, try to change window size.
 To stop move your mouse away from button.                            
 
 ![](https://i.imgur.com/2mN3LwS.gif)
+*gif created before update, now letters are generating too.
