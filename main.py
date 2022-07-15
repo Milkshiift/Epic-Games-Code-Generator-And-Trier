@@ -3,9 +3,14 @@ import random
 import pyautogui
 import keyboard
 
+chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
 time.sleep(5)
 
 while True:
+    key = ""
+    for x in range(0, 20):
+        key_char = random.choice(chars)
+        key = key + key_char
     time.sleep(2)
     x, y = pyautogui.position()
     r, g, b = pyautogui.pixel(x, y)
@@ -16,8 +21,7 @@ while True:
     pyautogui.leftClick()
     time.sleep(0.1)
     keyboard.press_and_release('ctrl+a, backspace')
-    code = random.randint(10000000000000000000, 99999999999999999999)
-    keyboard.write(str(code))
+    keyboard.write(str(key))
     time.sleep(0.1)
     pyautogui.moveTo(x, y)
     pyautogui.leftClick()
