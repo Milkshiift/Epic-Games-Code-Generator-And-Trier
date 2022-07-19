@@ -3,13 +3,14 @@ import random
 import pyautogui
 import keyboard
 
+system_random = random.SystemRandom()
 chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
 time.sleep(5)
 
 while True:
     key = ""
     for x in range(0, 20):
-        key_char = random.choice(chars)
+        key_char = system_random.choice(chars)
         key = key + key_char
     time.sleep(2)
     x, y = pyautogui.position()
